@@ -7,7 +7,8 @@ import About from "./About";
 import user from "../data/user";
 console.log(user);
 
-function App() {
+class MyComponent extends React.Component{
+render (){
   return (
     <div>
       <NavBar />
@@ -16,5 +17,6 @@ function App() {
     </div>
   );
 }
+}
 
-export default App;
+export default MyComponent;
